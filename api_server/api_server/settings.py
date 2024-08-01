@@ -11,7 +11,7 @@ SECRET_KEY = 'your-secret-key'
 DEBUG = True
 
 # Корневая конфигурация URL
-ROOT_URLCONF = 'backend.urls'  # Замените 'backend' на имя вашей директории, если она отличается
+ROOT_URLCONF = 'api_server.urls'  # Замените 'api_server' на имя вашей директории, если она отличается
 
 # Разрешенные хосты для работы (оставляем пустым для разработки)
 ALLOWED_HOSTS = []
